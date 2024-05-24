@@ -1,0 +1,16 @@
+@media (max-width: 1020px) {
+  .modal-menu,
+  .modal-search {
+    transition: transform 300ms ease-in-out;
+    width: 100%;
+  }
+  .modal-menu {
+    transform: translateX(-100%);
+  }
+  .modal-search {
+    transform: translateX(100%);
+  }
+  .active-modal {
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=modal.css.map */

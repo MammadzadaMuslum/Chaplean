@@ -1,0 +1,20 @@
+.card {
+  background-color: #272c46;
+  padding: 32px;
+  border-radius: 24px;
+  transition: 300ms;
+  border: 1px solid transparent;
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+  }
+  .card-text {
+    width: 100% !important;
+    color: #98a0a8 !important;
+  }
+  &:hover {
+    border: 1px solid #1d9bf0e5;
+  }
+}

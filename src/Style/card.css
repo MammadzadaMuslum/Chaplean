@@ -1,0 +1,20 @@
+.card {
+  background-color: #272c46;
+  padding: 32px;
+  border-radius: 24px;
+  transition: 300ms;
+  border: 1px solid transparent;
+}
+.card h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  color: white;
+}
+.card .card-text {
+  width: 100% !important;
+  color: #98a0a8 !important;
+}
+.card:hover {
+  border: 1px solid rgba(29, 155, 240, 0.8980392157);
+}/*# sourceMappingURL=card.css.map */

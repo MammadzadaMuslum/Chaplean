@@ -1,0 +1,116 @@
+.left-bar {
+  width: 15%;
+  padding: 16px;
+  position: fixed;
+  left: 0;
+  top: 60px;
+  .bar-box {
+    border: 1px solid #1d9bf0b2;
+    padding: 16px;
+    background-color: #272c46;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    .profile {
+      display: flex;
+      align-items: center;
+      .profile-text {
+        margin: 0 8px;
+        color: white;
+        h4 {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 16px;
+          margin-bottom: 6px;
+        }
+        .prof-p {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 12px;
+        }
+      }
+    }
+  }
+  nav {
+    margin-top: 24px;
+    .left-navbar {
+      li {
+        margin-bottom: 8px;
+        a {
+          margin-left: 12px;
+          color: #bbbbbb;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 14px;
+          transition: all 300ms;
+          &:hover {
+            color: white;
+          }
+        }
+        &:nth-child(1) a {
+          color: white;
+        }
+      }
+    }
+    .acardions {
+      margin-top: 32px;
+      .acardion-text {
+        margin-left: 12px;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 14px;
+      }
+      .acardion {
+        .css-1086bdv-MuiPaper-root-MuiAccordion-root {
+          background-color: transparent;
+          box-shadow: 0 0 0;
+          color: #bbbbbb;
+          transition: all 300ms;
+          &:hover {
+            color: white;
+          }
+        }
+        .css-ahj2mt-MuiTypography-root {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 14px;
+        }
+        .css-eqpfi5-MuiAccordionSummary-content.Mui-expanded {
+          color: #1d9bf0e5;
+          margin: 0;
+        }
+        .css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+          min-height: 48px;
+        }
+        .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+          color: #bbbbbb;
+          transform: rotate(-90deg);
+          transition: all 300ms;
+          &:hover {
+            color: white;
+          }
+        }
+        .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+          transform: rotate(0);
+          color: #1d9bf0e5;
+        }
+        .css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root {
+          padding: 0px 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1020px) {
+  .left-bar {
+    display: none;
+    position: static;
+  }
+  .left-active {
+    background-color: #131426;
+    height: 100vh;
+    width: 100%;
+    display: block;
+  }
+}

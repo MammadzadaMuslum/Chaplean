@@ -1,0 +1,113 @@
+.left-bar {
+  width: 15%;
+  padding: 16px;
+  position: fixed;
+  left: 0;
+  top: 60px;
+}
+.left-bar .bar-box {
+  border: 1px solid rgba(29, 155, 240, 0.6980392157);
+  padding: 16px;
+  background-color: #272c46;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-bar .bar-box .profile {
+  display: flex;
+  align-items: center;
+}
+.left-bar .bar-box .profile .profile-text {
+  margin: 0 8px;
+  color: white;
+}
+.left-bar .bar-box .profile .profile-text h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 6px;
+}
+.left-bar .bar-box .profile .profile-text .prof-p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+.left-bar nav {
+  margin-top: 24px;
+}
+.left-bar nav .left-navbar li {
+  margin-bottom: 8px;
+}
+.left-bar nav .left-navbar li a {
+  margin-left: 12px;
+  color: #bbbbbb;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  transition: all 300ms;
+}
+.left-bar nav .left-navbar li a:hover {
+  color: white;
+}
+.left-bar nav .left-navbar li:nth-child(1) a {
+  color: white;
+}
+.left-bar nav .acardions {
+  margin-top: 32px;
+}
+.left-bar nav .acardions .acardion-text {
+  margin-left: 12px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+}
+.left-bar nav .acardions .acardion .css-1086bdv-MuiPaper-root-MuiAccordion-root {
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  color: #bbbbbb;
+  transition: all 300ms;
+}
+.left-bar nav .acardions .acardion .css-1086bdv-MuiPaper-root-MuiAccordion-root:hover {
+  color: white;
+}
+.left-bar nav .acardions .acardion .css-ahj2mt-MuiTypography-root {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+}
+.left-bar nav .acardions .acardion .css-eqpfi5-MuiAccordionSummary-content.Mui-expanded {
+  color: rgba(29, 155, 240, 0.8980392157);
+  margin: 0;
+}
+.left-bar nav .acardions .acardion .css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 48px;
+}
+.left-bar nav .acardions .acardion .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+  color: #bbbbbb;
+  transform: rotate(-90deg);
+  transition: all 300ms;
+}
+.left-bar nav .acardions .acardion .css-yw020d-MuiAccordionSummary-expandIconWrapper:hover {
+  color: white;
+}
+.left-bar nav .acardions .acardion .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+  transform: rotate(0);
+  color: rgba(29, 155, 240, 0.8980392157);
+}
+.left-bar nav .acardions .acardion .css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 0px 10px;
+}
+
+@media (max-width: 1020px) {
+  .left-bar {
+    display: none;
+    position: static;
+  }
+  .left-active {
+    background-color: #131426;
+    height: 100vh;
+    width: 100%;
+    display: block;
+  }
+}/*# sourceMappingURL=menu.css.map */

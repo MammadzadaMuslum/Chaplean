@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+}
+.container .main {
+  width: 70%;
+  padding: 16px;
+  margin-left: 15%;
+}
+.container .main .main-top {
+  margin-bottom: 80px;
+  color: white;
+}
+.container .main .main-top .top-main {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.container .main p {
+  color: white;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.container .main p a {
+  color: #1d9bf0;
+}
+.container .main p a:nth-child(2) {
+  text-decoration: underline;
+}
+.container .main .main-center .center-text {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.container .main .main-cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 16px;
+  margin-bottom: 32px;
+  margin-top: 12p;
+}
+.container .main .main-cards .main-card:nth-child(3) p {
+  color: white !important;
+}
+.container .main .main-cards .main-card:nth-child(5) p {
+  color: white !important;
+}
+@media (max-width: 775px) {
+  .container .main .main-cards {
+    grid-template-columns: auto;
+  }
+}
+@media (min-width: 776px) and (max-width: 1020px) {
+  .container .main .main-cards {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 1020px) {
+  .container .main {
+    width: 100%;
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=main.css.map */
